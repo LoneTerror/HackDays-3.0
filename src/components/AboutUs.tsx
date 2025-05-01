@@ -80,7 +80,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Shubrajit Deb",
             role: "Event Management Lead",
-            image: "https://i.postimg.cc/Mp3PvqtH/SHUBRA-1.png",
+            image: "https://i.postimg.cc/sDH3JqwT/Subhrajit-Deb.jpg",
             github: "https://github.com/Shubrajit22",
             linkedin: "https://www.linkedin.com/in/shubrajit-deb-034467272/",
             email: "shubrajit@example.com",
@@ -88,7 +88,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Arijit Banik",
             role: "Event Management Co-Lead",
-            image: "https://i.postimg.cc/fTDBCBbx/Arijit-Banik.jpg",
+            image: "https://i.postimg.cc/Bb3rqcNL/Arijit.jpg",
             github: "https://github.com/arijitb17",
             linkedin: "https://www.linkedin.com/in/arijit-banik-485610246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
             email: "arijitb017@gmail.com",
@@ -96,7 +96,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Abhijit Kumar Baishya ",
             role: "Public Relations & Marketing Head",
-            image: "https://i.postimg.cc/vTmbLQRj/IMG-20-3.jpg",
+            image: "https://i.postimg.cc/1tDxhY01/Abhijit-Baishya.jpg",
             github: "https://github.com/abhibaishya07",
             linkedin: "https://www.linkedin.com/in/abhijit-baishya-978a28253/",
             email: "abhibaishya07@gmail.com",
@@ -104,7 +104,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Pragyan Paul ",
             role: "Public Relations & Marketing Lead",
-            image: "https://i.postimg.cc/C1SF5Gcw/IMG-93-2.jpg",
+            image: "https://i.postimg.cc/nLy8WtD1/Pragyan-Paul.jpg",
             github: "https://github.com/Pragyan5782",
             linkedin: "https://www.linkedin.com/in/pragyan-paul-7190b8262",
             email: "abhibaishya07@gmail.com",
@@ -120,7 +120,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Geetartha Bordoloi",
             role: "Finance Lead",
-            image: "https://i.postimg.cc/3JcJ1DxZ/IMG-20-1.jpg",
+            image: "https://i.postimg.cc/0yNqMnv7/Geetartha-Bordoloi.jpg",
             github: "https://github.com/Geet2002",
             linkedin: "https://www.linkedin.com/in/geetartha-bordoloi",
             email: "geetarthabordoloi936@gmail.com",
@@ -128,7 +128,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Snehal Kalita",
             role: "Finance Co-Lead",
-            image: "https://i.postimg.cc/v8Xm1KRk/IMG-19-1.jpg",
+            image: "https://i.postimg.cc/fbtn5bJL/Snehal-Kalita.jpg",
             github: "https://github.com/SnehalKalita",
             linkedin: "http://linkedin.com/in/snehal-kalita-1bb274301",
             email: "snehalkalita@gmail.com",
@@ -136,7 +136,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Purab Jyoti Kashyap",
             role: "Design & Creative Lead",
-            image: "https://i.postimg.cc/MZsWZjV8/WHATSA-1.jpg",
+            image: "https://i.postimg.cc/gJF5DqCS/Whats-App-Image-2025-03-09-at-11-50-32-AM-Purab-Kashyap.jpg",
             github: "https://github.com/PurabR",
             linkedin: "https://www.linkedin.com/in/purabkashyap/",
             email: "purab2013@gmail.com",
@@ -144,7 +144,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Monaswi Kumar Bharadwaj",
             role: "Event Coordinator Head",
-            image: "https://i.postimg.cc/7LvP887G/IMG-20-1.jpg",
+            image: "https://i.postimg.cc/fRgQxdWp/Monaswi-Kumar.jpg",
             github: "https://github.com/Monaswi0104",
             linkedin: "https://www.linkedin.com/in/monaswi-kumar-bharadwaj-051713296/",
             email: "bharadwajmonaswi@gmail.com",
@@ -152,7 +152,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Subarna Saikia",
             role: "Event Coordinator Lead",
-            image: "https://i.postimg.cc/zXBGTk8B/BLACK-1.png",
+            image: "https://i.postimg.cc/m22n8rns/black-Subarna-Saikia.png",
             github: "https://github.com/subarnasaikia",
             linkedin: "https://www.linkedin.com/in/subarna-saikia/",
             email: "subarnasaikia2@gmail.com",
@@ -160,7 +160,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Abhisekh Roy",
             role: "Event Coordinator Co-Lead",
-            image: "https://i.postimg.cc/Gh8Z0MC6/Abhisekh-Roy.jpg",
+            image: "https://i.postimg.cc/zX0srhhv/Abhishek-Roy.jpg",
             github: "github.com/Abhisekh29",
             linkedin: "https://www.linkedin.com/in/abhisekh-roy-b5aa29272/",
             email: "abhisekhroy2912@gmail.com",
@@ -168,7 +168,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Jurin Deep Das",
             role: "Event Coordinator Co-Lead",
-            image: "https://i.postimg.cc/pdLdBNwg/Jurin-Deep.jpg",
+            image: "https://i.postimg.cc/DwNRWKBK/Jurin-Deep-Das.jpg",
             github: "https://github.com/Jurindeepdb",
             linkedin: "https://www.linkedin.com/in/jurin-deep-das",
             email: "jurindeepdas@gmail.com",
@@ -208,7 +208,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Ashmit Karmakar",
             role: "Marketing & Promotional Lead",
-            image: "https://i.postimg.cc/t4nRMC1G/IMG-20-2.jpg",
+            image: "https://i.postimg.cc/NFQnhGfR/IMG-20250301-WA0006-2-Ashmit-Karmakar.jpg",
             github: "https://github.com/Ashmitkarmakar",
             linkedin: "https://www.linkedin.com/in/ashmit-karmakar-1885b5238/",
             email: "ashmitkarmakar5@gmail.com",
@@ -216,7 +216,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Bhagyashree Thakuria ",
             role: "Marketing & Promotional Co-Lead",
-            image: "https://i.postimg.cc/T3p2s82m/Bhagyashree-22-Thakuria-3022.jpg",
+            image: "https://i.postimg.cc/8zcqPCdH/Bhagyashree-Thakuria.jpg",
             github: "https://github.com/bhgythkuria",
             linkedin: "https://www.linkedin.com/in/bhagyashree-thakuria-816152308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             email: "bhagyashreethakuria113@gmail.com",
@@ -224,7 +224,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Bikash Bora",
             role: "Design & Creatives Co-Lead",
-            image: "https://i.postimg.cc/Wb5zFHZt/Bikash-Bora.jpg",
+            image: "https://i.postimg.cc/J41fvxGS/Bikash-Bora.jpg",
             github: "https://github.com/Bikash62521",
             linkedin: "https://www.linkedin.com/in/bikash-bora-b67690256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             email: "borab796@gmail.com",
@@ -232,7 +232,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Gautam Hazarika",
             role: "Technology Team Lead",
-            image: "https://i.postimg.cc/J0qnQTd6/Gautam-Hazarika.png",
+            image: "https://i.postimg.cc/FKJ83nBk/Gautam-Hazarika.png",
             github: "https://www.github.com/gautam84",
             linkedin: "https://www.linkedin.com/in/gautamhazarika",
             email: "gautamhazarika01@gmail.com",
@@ -240,7 +240,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Neelim Sikhar Borah",
             role: "Technology Team Co-Lead",
-            image: "https://i.postimg.cc/NMDQHKnm/PIC-NE-1.jpg",
+            image: "https://i.postimg.cc/7PNc3zm9/pic-Neelim-Sikhar-Borah.jpg",
             github: "https://github.com/Neil-9352",
             linkedin: "https://www.linkedin.com/in/neelim-s-borah-40481126a/",
             email: "borahneelims@gmail.com",
@@ -248,7 +248,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Kaushik Sarma",
             role: "Attendee Engagement Lead",
-            image: "https://i.postimg.cc/MHsZhnbq/1-KAUS-1.jpg",
+            image: "https://i.postimg.cc/4y1rn7F8/Kaushik-Sarma.jpg",
             github: "https://github.com/Student-KaushikSarma",
             linkedin: "https://www.linkedin.com/in/kaushik-sarma-318525329",
             email: "kaushiksarma972@gmail.com",
@@ -256,7 +256,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Manwinder Singh",
             role: "Attendee Engagement Co-Lead",
-            image: "https://i.postimg.cc/wTq3Bp7S/Manwinder-Singh.jpg",
+            image: "https://i.postimg.cc/B6TzwPsq/Manwinder-Singh.jpg",
             github: "https://github.com",
             linkedin: "https://www.linkedin.com/in/manwinder-singh-86353a215",
             email: "risingsingh440@gmail.com",
@@ -264,7 +264,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Dikshita Dutta",
             role: "Attendee Engagement Co-Lead",
-            image: "https://i.postimg.cc/44bmZdN6/Dikshita-22-Dutta-3029.jpg",
+            image: "https://i.postimg.cc/Vv4Vzydp/Dikhshita-Dutta.jpg",
             github: "https://github.com/dikshitadutta",
             linkedin: "https://www.linkedin.com/in/dikshita-dutta-9a6194296",
             email: "dikshitadutta888@gmail.com",
@@ -272,7 +272,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Bikash Nath",
             role: "Attendee Engagement Co-Lead",
-            image: "https://i.postimg.cc/0231bzxM/Bikash-22-Nath2019.jpg",
+            image: "https://i.postimg.cc/7PMvKdYg/Bikash-Nath.jpg",
             github: "https://github.com/Bikash0nath",
             linkedin: "https://www.linkedin.com/in/bikash-nath-7a8397258/",
             email: "nathbikash231@gmail.com",
@@ -280,7 +280,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Debobrata Das",
             role: "Attendee Engagement Co-Lead",
-            image: "https://i.postimg.cc/W4MNsW69/202503-1.jpg",
+            image: "https://i.postimg.cc/kX1pZmrt/20250306-153640-Debobrata-Das.jpg",
             github: "https://github.com/debo-220102022",
             linkedin: "https://www.linkedin.com/in/debobrata-das-b51059265/",
             email: "debobrata2000das@gmail.com",
