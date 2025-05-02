@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Zap } from "lucide-react";
 import { NavigateFunction, useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 const BackgroundAnimation = () => (
     <div className="absolute inset-0 overflow-hidden">
@@ -26,25 +26,25 @@ const BackgroundAnimation = () => (
 
 
 
-const calculateTimeLeft = (targetDate: string) => {
-    const difference = new Date(targetDate).getTime() - new Date().getTime();
-    if (difference <= 0) return { days: 0, hours: 0, minutes: 0, seconds: 0 };
-    return {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / (1000 * 60)) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
-    };
-};
+// const calculateTimeLeft = (targetDate: string) => {
+//     const difference = new Date(targetDate).getTime() - new Date().getTime();
+//     if (difference <= 0) return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+//     return {
+//         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+//         hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+//         minutes: Math.floor((difference / (1000 * 60)) % 60),
+//         seconds: Math.floor((difference / 1000) % 60),
+//     };
+// };
 
 export default function Hero() {
     const navigate: NavigateFunction = useNavigate();
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft("2025-03-19T09:00:00"));
 
-    useEffect(() => {
-        const timer = setInterval(() => setTimeLeft(calculateTimeLeft("2025-03-19T09:00:00")), 1000);
-        return () => clearInterval(timer);
-    }, []);
+    // const [timeLeft, setTimeLeft] = useState(calculateTimeLeft("2025-03-19T09:00:00"));
+    // useEffect(() => {
+    //     const timer = setInterval(() => setTimeLeft(calculateTimeLeft("2025-03-19T09:00:00")), 1000);
+    //     return () => clearInterval(timer);
+    // }, []);
 
     return (
         <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c] overflow-hidden">
@@ -86,10 +86,10 @@ export default function Hero() {
                         <div className="flex items-center pt-0 gap-0 text-blue-200 text-1xl md:text-1xl">
                             <span className="font-brick">Event Has Ended! <br /> See you next year!</span>
                         </div>
-                        <div className="flex items-center pt-0 gap-0 text-blue-300 text-1xl md:text-1xl">
+                        {/* <div className="flex items-center pt-0 gap-0 text-blue-300 text-1xl md:text-1xl">
                             <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" 
                             className="font-sigmar flex items-center pt-0 gap-0 text-blue-300 text-1xl md:text-1xl inline-block transition-transform transform hover:scale-105">📍Seminar Hall, GUIST Building</a>
-                        </div>
+                        </div> */}
                         {/* <div className="flex items-center pt-0 gap-0 text-red-300 text-1xl md:text-1xl">
                             <span className="animate-pulse font-brick">Event Starts In:</span>
                         </div> */}
