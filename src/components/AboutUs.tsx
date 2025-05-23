@@ -112,7 +112,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Rishikesh Verma",
             role: "Public Relations & Marketing Co-Lead",
-            image: "https://i.postimg.cc/MHzdDMfY/rverma.jpg",
+            image: "https://i.postimg.cc/tTgLzksH/Rishikesh-Verma.jpg",
             github: "https://github.com/Rishikesh-Verma69",
             linkedin: "https://www.linkedin.com/in/rishikesh-verma-aab4a1256/",
             email: "rishiv903@gmail.com",
@@ -176,7 +176,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Prasun Chakraborty",
             role: "E-Sports Coordinator Head",
-            image: "https://i.postimg.cc/0jSYsTHW/Prasun-Img.jpg",
+            image: "https://i.postimg.cc/vHG52KQ9/Prasun-Img.jpg",
             github: "https://github.com/LoneTerror",
             linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
             email: "nothingshere21@gmail.com",
@@ -184,7 +184,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Midanka Lahon",
             role: "E-Sports Coordinator Lead",
-            image: "https://i.postimg.cc/pTz6kMGP/midanka.jpg",
+            image: "https://i.postimg.cc/rsNxF19K/midanka.jpg",
             github: "https://github.com/midankalahon786",
             linkedin: "https://www.linkedin.com/in/midanka-lahon-1946b8255/",
             email: "midankalahon@gmail.com",
@@ -192,7 +192,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Anilabh Barua",
             role: "E-Sports Coordinator Co-Lead",
-            image: "https://i.postimg.cc/9F3Ppfrv/anilabh.png",
+            image: "https://i.postimg.cc/7YX0FN6R/anilabh.png",
             github: "https://github.com/AnilabhBarua",
             linkedin: "https://www.linkedin.com/in/barua24/",
             email: "anilabh.barua@gmail.com",
@@ -200,7 +200,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Bhargav Shivam",
             role: "E-Sports Coordinator Co-Lead",
-            image: "https://i.postimg.cc/pV5YzjXf/bhargav-removebg-preview.png",
+            image: "https://i.postimg.cc/BZTxg3G4/bhargav-removebg-preview.png",
             github: "https://github.com/BhargavShivam7",
             linkedin: "https://www.linkedin.com/in/bhargav-shivam-54bab1256/",
             email: "bhargavshivamcr7@gmail.com",
