@@ -176,7 +176,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Prasun Chakraborty",
             role: "E-Sports Coordinator Head",
-            image: "https://i.postimg.cc/vHG52KQ9/Prasun-Img.jpg",
+            image: "https://i.postimg.cc/90LV1pjB/pic.png",
             github: "https://github.com/LoneTerror",
             linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
             email: "nothingshere21@gmail.com",
