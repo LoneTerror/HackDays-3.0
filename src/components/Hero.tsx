@@ -84,7 +84,7 @@ export default function Hero() {
                             19th March - 21st March
                         </motion.h1>
                         <div className="flex items-center pt-0 gap-0 text-blue-200 text-1xl md:text-1xl">
-                            <span className="font-brick">Event Has Ended! <br /> See you next year!</span>
+                            <span className="font-brick">Event Has Ended! <br /> See you next year! <br /> Aur haan Error Dalla hei! </span>
                         </div>
                         {/* <div className="flex items-center pt-0 gap-0 text-blue-300 text-1xl md:text-1xl">
                             <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" 
