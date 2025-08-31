@@ -10,7 +10,6 @@ export default function Sponsors() {
   const sponsors = [
     'https://i.postimg.cc/RFwR3PdT/oil-india.jpg',
     'https://i.postimg.cc/VkH4205X/iocl.png',
-    'https://i.postimg.cc/X7dBr88C/innovation.jpg',
     'https://i.postimg.cc/0NTnygYQ/Gplus.png',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMrZoyifOevihovOxvJY-oF0meg0LC-oOtg&s',
     'https://i.postimg.cc/vHbPndpx/meal-by-box.jpg',
