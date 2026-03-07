@@ -1,11 +1,8 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { useEffect, useRef, useState } from 'react';
 
 export default function Sponsors() {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
-  const containerRef = useRef(null);
-  const [containerWidth, setContainerWidth] = useState(0);
 
   const sponsors = [
     'https://i.postimg.cc/RFwR3PdT/oil-india.jpg',
@@ -15,18 +12,26 @@ export default function Sponsors() {
     'https://i.postimg.cc/vHbPndpx/meal-by-box.jpg',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh0t_MVuJUkDmYRIHdFALAzd_spGi72DUmsQ&s',
     'https://i.postimg.cc/8cPpYzyf/decathlon.webp',
-    'https://images.unsplash.com/vector-1741113755107-5fa5aa1b8da0?q=80&w=2440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://i.postimg.cc/sx8xMBBK/raju-reyaz.jpg',
   ];
-
-  useEffect(() => {
-    if (containerRef.current) {
-      setContainerWidth(containerRef.current.scrollWidth / 2);
-    }
-  }, []);
 
   return (
     <div className="py-16 bg-gray-800" id="sponsors">
+      {/* 1. The Animation Logic (CSS is faster than JS for this) */}
+      <style>{`
+        @keyframes scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+          display: flex;
+          width: max-content;
+          animation: scroll 15s linear infinite;
+        }
+        .animate-marquee:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
+
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -39,17 +44,11 @@ export default function Sponsors() {
           </span>
         </motion.h2>
 
-        <div className="relative overflow-hidden">
-          <motion.div
-            ref={containerRef}
-            className="flex"
-            initial={{ x: 500 }}
-            animate={{ x: -containerWidth }}
-            transition={{
-              ease: "linear",
-              duration: 12,
-              repeat: Infinity,
-            }}
+        <div className="relative overflow-hidden w-full mask-edges">
+          {/* 2. Pure CSS Container */}
+          <div 
+            className="animate-marquee" 
+            style={{ animationDuration: '10s' }} // <--- CHANGE THIS FOR SPEED (Lower is faster)
           >
             {[...sponsors, ...sponsors].map((logo, index) => (
               <div
@@ -58,12 +57,13 @@ export default function Sponsors() {
               >
                 <img
                   src={logo}
-                  alt={`Sponsor ${index + 1}`}
+                  alt={`Sponsor ${index % sponsors.length}`}
                   className="max-w-full max-h-full object-contain"
+                  loading="lazy"
                 />
               </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
